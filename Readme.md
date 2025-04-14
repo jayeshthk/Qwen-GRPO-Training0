@@ -19,9 +19,18 @@ This repository includes:
 - **Datasets Used**: GRPO, NuminaMath, and Bespoke Stratos, enabling the model to specialize in technical and mathematical domains.
 - **Model Type**: Causal Language Model (CausalLM).
 
+## Working after Tune2-Cycle
+
+Prompt for solving quadratic equation:
+
+![quadratic](./images/quadratic.png)
+
+Prompt for code writing(Array sort):
+![array_sort](./images/array_sort.png)
+
 ## Python Notebook
 
-The repository contains a Jupyter notebook named `QWEN_GRPO_).ipynb` that details the entire training process:
+The repository contains a Jupyter notebook named `QWEN_GRPO_0.ipynb` that details the entire training process:
 
 - Data preprocessing and loading
 - Model architecture setup and fine-tuning
@@ -45,7 +54,10 @@ You can open the notebook to see the step-by-step code for training the model us
 
 The fine-tuned Qwen model is available on Hugging Face for easy usage:
 
-- **Hugging Face Repo**: [Qwen-GRPO-Training](https://huggingface.co/joe-xhedi/Qwen-GRPO-training)
+- **Hugging Face Repo V1**: [Qwen-GRPO-Training](https://huggingface.co/joe-xhedi/Qwen-GRPO-training)
+  - With single data source.
+- **Hugging Face Repo V2**: [Qwen-GRPO-Training-2](https://huggingface.co/joe-xhedi/Qwen-GRPO-Training-2)
+  - With more complex data and epoch's
 
 ## Notes
 
