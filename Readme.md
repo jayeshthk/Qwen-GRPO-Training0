@@ -1,4 +1,7 @@
+
 # Qwen-GRPO-Training
+
+## Alert => Github is having some [issues](https://github.com/orgs/community/discussions/155944) to render notebooks, it will be better if you clone and view notebook on your local IDE.
 
 This repository contains the code and resources for training the Qwen model using the **GRPO** dataset, along with the
 1.NuminaMath-TIR (For R1 Zero Training)
